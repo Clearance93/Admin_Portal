@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+ <link type="text/css" rel="stylesheet" href="css/login.css"> 
+ <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+</head>
+<body class="container">
+	<form action="RegisterControllerServlet" method="post">
+		<h1 class="bg-success text-light card">Admin registration Registration form</h1>
+		<label>First name</label>
+		<input type="text" class="forms"  placeholder="Your first Name" name="fname" required />
+		<br />
+		
+		<label>Last Name</label>
+		<input type="text" class="forms"  placeholder="Your last name" name="lname" required />
+		<br />
+		
+		<label>Age</label>
+		<input type="number" class="forms" placeholder="your age" name="age" required />
+		<br />
+		
+		<label>Email</label>
+		<input type="email" class="forms"  placeholder="someone@example.com" name="email" required />
+		<br />
+		
+		<label>password</label>
+		<input type="password" class="forms"  placeholder="**************" name="password" required />
+		<br />
+		
+		<label>Confirm Password</label>
+		<input type="password" class="forms"  placeholder="**************" name="cpassword" required />
+		
+		<br />
+		
+		<input type="submit" class="btn btn-outline-primary" value="Submit" /> &nbsp;&nbsp;&nbsp;
+		<input type="reset" class="btn btn-outline-dark" value="Clear" />
+		
+	</form>
+</body>
+</html>
